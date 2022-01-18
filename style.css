@@ -2,15 +2,107 @@
 
 
 /* change the font family and spacing as per your project font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 600px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	position: relative;
+	 top: 20px;
+	margin-left: 80px;
+	
+
+}
+body{
+	background-image: url('assets/background-image1.png');
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-position-x:100%;
+	background-position-y:200%;
+
+
+	
+  
+}
+a{
+	text-decoration: none;
+}
+td
+{
+	padding:8px;
+	border-bottom: 1px solid rgb(180, 174, 174);
+}
+table{
+	 /* border: 2px solid  rgb(180, 174, 174);  */
+	background-color: white;
+	border-collapse:collapse;
+	padding:20px;
+	font-weight:700;
+}
+p{
+	font-size:45px;
+	font-weight: bolder;
+	line-height: 30px;
+	text-decoration-color: dimgrey;
+	text-shadow: 2px 2px gray;
+}
+p>strong{
+	font-size:22px;
+	color:gray;
+	text-shadow: none;
+	line-height:10px;
+	
+}
+.yy{
+	background-color: orangered;
+	color: white;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.heading{
+	text-align: end;
+	
+}
+.abc{
+	padding-left: 320px;
+}
+.ss{
+	color: grey;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.score{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.ss{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.yr{
+	text-align: end;
+	padding-right: 20px;
+}
+
+.ww{
+	padding-top: 3px;
+	padding-bottom: 3px;
+
 }
